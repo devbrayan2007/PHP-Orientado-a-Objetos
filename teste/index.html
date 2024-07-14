@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA DE BANCO SIMPLES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h3>BANCO DO BRASIL</h3>
+        <hr>
+        <p><strong>Deposite seu dinheiro ou saque</p></strong>
+        <form action="banco.php" method="post">
+            <p>Informe seu saldo:</p>R$ <input type="number" name="saldo">
+            <p>Informe quanto você quer depositar:</p> R$ <input type="number" name="deposito"><br>
+            <br>
+            <p>Informe quanto você quer sacar:</p> R$ <input type="number" name="sacar"><br>
+            <br>
+            <input type="submit" value="Depositar" name="btn-depositar">
+            <input type="submit" value="Sacar" name="btn-sacar">
+        </form>
+    </center>
+</body>
+</html>
