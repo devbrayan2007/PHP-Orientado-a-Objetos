@@ -9,7 +9,7 @@ if(isset($_POST["btn-sacar"])){
 }
 
 
-/*
+
 abstract class Banco{
     protected $saldo;
     protected $limiteSaque;
@@ -47,4 +47,3 @@ $bradesco = new Bradesco();
 $bradesco->setSaldo($_POST['saldo']);
 $bradesco->Sacar($_POST['sacar']);
 $bradesco->Depositar($_POST['deposito']);
-*/
