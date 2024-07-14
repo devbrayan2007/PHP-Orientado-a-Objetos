@@ -1,13 +1,5 @@
 <?php
 
-if(isset($_POST["btn-depositar"])){
-    echo "Sucesso ao depositar!";
-}
-
-if(isset($_POST["btn-sacar"])){
-    echo "Sucesso ao sacar!";
-}
-
 
 
 abstract class Banco{
@@ -43,7 +35,7 @@ class Bradesco extends Banco{
 }
 
 
-$bradesco = new Bradesco();
-$bradesco->setSaldo($_POST['saldo']);
-$bradesco->Sacar($_POST['sacar']);
-$bradesco->Depositar($_POST['deposito']);
+if(isset($_POST['btn-sacar'])){
+    $bradesco = new Bradesco();
+    $bradesco->Sacar($_POST['sacar']);
+}
