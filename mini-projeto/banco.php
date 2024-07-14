@@ -1,7 +1,5 @@
 <?php
 
-
-
 abstract class Banco{
     protected $saldo;
     protected $limiteSaque;
