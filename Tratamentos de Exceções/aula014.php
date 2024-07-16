@@ -8,7 +8,7 @@ class Login{
             throw new Exception("Este email é inválido!", 1);
         }
         else{
-            echo "Email cadastrado com sucesso!";
+            echo "Seu email foi cadastrado com sucesso!";
         }
     }
 }
