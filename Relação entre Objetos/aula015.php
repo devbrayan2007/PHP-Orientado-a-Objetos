@@ -26,4 +26,4 @@ $dados = array(
     'endereco' => $pedido->cliente->endereco
 );
 
-
+var_dump($dados);
