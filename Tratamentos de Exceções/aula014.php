@@ -24,4 +24,5 @@ catch(Exception $e){
     echo "Código: ".$e->getCode(). "<br>";
     echo "Linha: ".$e->getLine(). "<br>";
     echo "Arquivo: ".$e->getFile(). "<br>";
+    echo "teste";
 }
