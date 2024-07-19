@@ -1,0 +1,13 @@
+{
+    "name": "brayan/composer",
+    "description": "Teste composer",
+    "require": {
+        "pagseguro/pagseguro-php-sdk": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "devbrayan2007",
+            "email": "devbrayan2007@gmail.com"
+        }
+    ]
+}
